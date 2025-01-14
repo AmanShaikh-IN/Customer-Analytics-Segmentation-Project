@@ -18,6 +18,7 @@ This project uses real-world customer data to perform market segmentation—cruc
 ## Files in the Repository
 - `customer_segmentation.py`: Python script containing the full code for preprocessing, analysis, clustering, and visualization.
 - `data/customer_segmentation_data.csv`: Input data file used for analysis.
+- `data/Segmentation data legend.xlsx`: Legend for all categorical data values.
 - `outputs/`: Folder containing visualizations such as:
   - Correlation heatmap (`corr.png`)
   - Scatter plot of raw data (`scatter.png`)
