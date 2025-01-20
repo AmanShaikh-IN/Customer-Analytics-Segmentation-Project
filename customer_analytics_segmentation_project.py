@@ -193,11 +193,12 @@ df_segm_analysis.rename({0:'Instagram Explorers',
                          1:'LinkedIn Networkers',
                          2:'Friends\' Influence',
                          3:'Google-YouTube Mix',
-                         4:'Anglo-Saxon Multi-Channel',
+                         4:'White Multi-Channel',
                          5:'European Multi-Channel',
                          6:'Twitter Devotees',
                          7:'Facebook Followers',
                         })
+
 
 #Based on data given in the legend
 
