@@ -189,27 +189,27 @@ df_segm_analysis['Prop Obs'] = df_segm_analysis['N Obs'] / df_segm_analysis['N O
 
 df_segm_analysis.round(2)
 
-df_segm_analysis.rename({0:'Instagram Explorers',
-                         1:'LinkedIn Networkers',
-                         2:'Friends\' Influence',
-                         3:'Google-YouTube Mix',
-                         4:'White Multiple Channel',
-                         5:'European Multiple Channel',
+df_segm_analysis.rename({0:'Facebook Followers',
+                         1:'Google-YouTube Mix',
+                         2:'LinkedIn Networkers',
+                         3:'Google-Mix',
+                         4:'Other/Youtube',
+                         5:'Through Friends',
                          6:'Twitter Devotees',
-                         7:'Facebook Followers',
+                         7:'Instagram Explorers',
                         })
 
 
 #Based on data given in the legend
 
-df_segm_kmeans['Labels'] = df_segm_kmeans['Segment'].map({0:'Instagram Explorers',
-                         1:'LinkedIn Networkers',
-                         2:'Friends\' Influence',
-                         3:'Google-YouTube Mix',
-                         4:'White Multiple Channel',
-                         5:'European Multiple Channel',
+df_segm_kmeans['Labels'] = df_segm_kmeans['Segment'].map({0:'Facebook Followers',
+                         1:'Google-YouTube Mix',
+                         2:'LinkedIn Networkers',
+                         3:'Google-Mix',
+                         4:'Other/Youtube',
+                         5:'Through Friends',
                          6:'Twitter Devotees',
-                         7:'Facebook Followers',
+                         7:'Instagram Explorers',
                         })
 
 x_axis = df_segm_kmeans['CLV']
